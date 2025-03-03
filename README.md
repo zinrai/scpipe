@@ -40,11 +40,11 @@ $ scpipe.sh --from john@server1.example.com:/home/john/data.txt --to mary@server
 
 ## How It Works
 
-1. SCPipe copies the file from the source server to your current working directory
+- SCPipe copies the file from the source server to your current working directory
   - Currently only supports file transfers (not diretories)
   - Authentication is handled by your SSH configuration (keys, passwords, etc.)
-2. It then copies the local file to the destination server
-3. The local copy remains in your current directory after the transfer
+- It then copies the local file to the destination server
+- The local copy remains in your current directory after the transfer
 
 ## License
 
